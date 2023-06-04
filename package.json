@@ -1,5 +1,5 @@
 {
-  "name": "semantic-version-and-commitizen",
+  "name": "semantic-release-commitizen-github-actions",
   "version": "0.0.0-development",
   "description": "Basic setup for semantic versioning and commitizen with github actions",
   "main": "index.js",
