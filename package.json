@@ -4,6 +4,7 @@
   "description": "Basic setup for semantic versioning and commitizen with github actions",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release --branches main"
   },
@@ -25,6 +26,12 @@
   },
   "homepage": "https://github.com/cbontems/semantic-release-commitizen-github-actions#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
     "semantic-release": "^21.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
