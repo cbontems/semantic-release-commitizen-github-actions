@@ -1,4 +1,4 @@
 const greet = () => {
-  console.log("Hello, World!");
+  console.log("Hello, Beautiful World!");
 };
 export default greet;
