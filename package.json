@@ -1,14 +1,15 @@
 {
   "name": "semantic-version-and-commitizen",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Basic setup for semantic versioning and commitizen with github actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release --branches main"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cbontems/semantic-release-commitizen-github-actions.git"
+    "url": "https://github.com/cbontems/semantic-release-commitizen-github-actions.git"
   },
   "keywords": [
     "semantic",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/cbontems/semantic-release-commitizen-github-actions/issues"
   },
-  "homepage": "https://github.com/cbontems/semantic-release-commitizen-github-actions#readme"
+  "homepage": "https://github.com/cbontems/semantic-release-commitizen-github-actions#readme",
+  "devDependencies": {
+    "semantic-release": "^21.0.3"
+  }
 }
